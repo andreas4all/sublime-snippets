@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$${1:name}Handler = Phony::mock(${2:className}::class);
-\$${1:name}Mock = \$${1:name}Handler->get();
+\$${1:name}Handle = Phony::mock(${2:className}::class);
+\$${1:name}Mock = \$${1:name}Handle->get();
 ]]></content>
     <tabTrigger>phmock</tabTrigger>
     <scope>source.php</scope>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$${1:name}Handle->${2:methodName}->with(${3:arguments})->returns(${4:returnValue});
+]]></content>
+    <tabTrigger>phmethod</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
