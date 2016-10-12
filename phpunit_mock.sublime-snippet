@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:name}Mock = \$this->getMockBuilder(${2:class}::class)
+    ->setMethods(['${3:methods}'])
+    ->getMock();
+]]></content>
+	<tabTrigger>pumock</tabTrigger>
+	<scope>source.php</scope>
+	<description>getMockBuilder</description>
+</snippet>

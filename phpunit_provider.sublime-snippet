@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @return array
+ */
+public function ${1:methodName}Provider() : array
+{
+    return [
+        [
+            '${2:attributeName}' => '${3:value}',
+        ],
+    ];
+}
+]]></content>
+	<tabTrigger>puprovider</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

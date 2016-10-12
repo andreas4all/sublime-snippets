@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$${1:name}Handler = Phony::mock(${2:className}::class);
+\$${1:name}Mock = \$${1:name}Handler->get();
+]]></content>
+    <tabTrigger>phmock</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

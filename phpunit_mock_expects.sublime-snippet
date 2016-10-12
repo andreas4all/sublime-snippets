@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$${1:name}Mock->expects(\$this->${2:expects}(${3:times}))
+    ->method('${4:method}')
+    ->with(${5:with})
+    ->willReturn(${6:return});
+]]></content>
+	<tabTrigger>puexpects</tabTrigger>
+	<scope>source.php</scope>
+	<description>expects</description>
+</snippet>

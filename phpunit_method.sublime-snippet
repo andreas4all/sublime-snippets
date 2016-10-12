@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @group ${1:groupName}
+ */
+public function test${2:MethodName}()
+{
+
+}
+]]></content>
+	<tabTrigger>pumethod</tabTrigger>
+	<scope>source.php</scope>
+	<description>method</description>
+</snippet>
