@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @return ${1:type}
+ */
+public function get${3:variableFirstUppercase}()
+{
+    return \$this->${2:variable};
+
+}
+]]></content>
+    <tabTrigger>getter</tabTrigger>
+    <scope>source.php</scope>
+    <description>getter</description>
+</snippet>
